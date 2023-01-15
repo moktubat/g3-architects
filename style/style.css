@@ -1,0 +1,277 @@
+/* Font Style */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700&display=swap');
+
+/* Utilities Styles */
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* Header Logo and Navbar Section Styles */
+header{
+    background: rgba(255, 144, 14, 0.1);
+
+}
+.nav{
+    padding: 45px 200px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo .logo-title{
+    font-size: 45px;
+}
+.menubar ul{
+    display: flex;
+    gap: 30px;
+}
+.menubar ul li{
+    list-style: none;
+}
+.menubar ul li a{
+    text-decoration: none;
+    color: #000;
+}
+
+/* Banner Section Styles */
+
+.banner{
+    margin: 25px auto;
+    text-align: center;
+}
+.banner-info{
+    width: 700px;
+    margin-left: 25%;
+}
+.banner-title{
+    font-size: 64px;
+    margin-bottom: 15px;
+}
+.banner-description{
+    font-size: 14px;
+    color: #727272;
+    margin-bottom: 15px;
+}
+.btn-primary button{
+    border: none;
+    margin: 40px 0;
+}
+.btn-primary a{
+    text-decoration: none;
+    color: white;
+    background: #FF900E;
+    border-radius: 8px;
+    border: none;
+    padding: 20px 25px;
+    font-size: 20px;
+}
+.banner-img img{
+    width: 970px;
+    height: 500px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+/* Our Features Section Styles */
+
+.features-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: space-between;
+    align-items: center;
+    margin: 45px 70px;
+    gap: 50px;
+}
+.gellary{
+    display: grid;
+    row-gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 20px;
+}
+.gellary img{
+    width: 300px;
+    height: 300px;
+}
+.features-info{
+    width: 490px;
+}
+
+.features-info .features-title{
+    font-size: 45px;
+}
+.features-title .gray-text{
+    color: #727272;
+}
+.features-title .orange-text{
+    color: #FF900E;
+}
+
+
+/* Features Service Section Styles */
+.service-container{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    padding: 25px 100px;
+}
+
+.services-banner img{
+    width: 600px;
+    height: 1100px;
+}
+
+.services-info .features-title{
+    font-size: 45px;
+    border-left: 5px solid #FF900E;
+    padding-left: 15px;
+}
+
+.features-description{
+    margin-top: 24px ;
+}
+.services{
+    padding-left: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+}
+.service-title{
+    font-size: 20px;
+}
+.features-description{
+    font-size: 16px;
+    color: #727272;
+}
+.big-button button{
+    position: relative;
+    left: 615px;
+    bottom: 130px;
+    border: none;
+    background-color: #FF900E;
+    padding: 25px 22px;
+    color: #FFFFFF;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.big-button h1{
+    font-size: 65px;
+}
+
+/* Achievement or Facts Section Styles */
+
+.fact-container{
+    margin: 110px 120px;
+}
+
+.achievements{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 100px 30px;
+    text-align: center;
+    column-gap: 25px;
+}
+
+.achievement{
+    border: 3px solid #FF900E;
+    padding: 40px 0px;
+    border-radius: 15px;
+    transition: .5s ease-out;
+}
+
+.achievement:hover{
+    background: rgba(255, 143, 14, 0.397);
+}
+
+.achievement-title{
+    font-size: 45px;
+}
+.achievement-info{
+    font-weight: 600;
+    font-size: 15px;
+    color: #727272;
+}
+
+/* Sponspors Section Styles */
+
+.sponspors-container{
+    margin: 130px 190px;
+    text-align: center;
+}
+
+.sponspors-logo{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    align-items: center;
+    margin: 50px 0;
+
+}
+
+/* Review */
+
+.reviews-container{
+    margin: 100px 195px;
+}
+
+.reviews{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    row-gap: 30px;
+    margin: 60px 0;
+}
+.item{
+    margin: 7px;
+}
+.review-title{
+    font-size: 28px;
+    font-weight: 500;
+}
+.rating{
+    font-weight: 700;
+    font-size: 14px;
+    color: #5E6366;
+}
+.fa-star, .fa-star-half-stroke{
+    color: #FB8200;
+}
+.fa-star-half-stroke{
+    margin-right: 7px;
+}
+
+.item-description{
+    color: #787885;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.seemore-btn{
+    text-align: center;
+}
+.seemore-btn button{
+    border: none;
+}
+.seemore-btn a{
+    font-weight: 700;
+    text-decoration: none;
+    background-color: #FF900E;
+    color: #FFF;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+
+
+/* Footer Styles */
+
+.footer-info{
+    margin: 50px auto;
+    padding: 40px 100px;
+    text-align: center;
+    background: #FFF4E7;
+    border-radius: 8px;
+    width: 900px;
+    font-size: 20px;
+}
